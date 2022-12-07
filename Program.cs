@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 Console.WriteLine("This is to test if syncing works with Onedrive.");
 Console.WriteLine("CALCULATOR (because i'm bored and need some practice and learn) \n---------------------------------------------------------------");
-
+Console.WriteLine("Testing to see if it works. AGAIN");
 float num1 = 0;
 
 float num2 = 0;
