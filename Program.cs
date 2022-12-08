@@ -1,8 +1,31 @@
 ﻿using System.Collections.Generic;
+Console.WriteLine("Insert:");
 
-Random please = new Random();
+switch (Console.ReadLine()){
+    case "a":
+    {
+        Console.WriteLine("Bobby");
+        break;
+    }
+    case "b":
+    {
+        Console.WriteLine("Apple");
+        break;
+    }
+    default:{d
+        Console.WriteLine("This is default");
+        break;
+    }
+    
+}
+Random namehere = new Random();
 
-Console.WriteLine(please.Next(0,7));
+Console.WriteLine(namehere.Next(1,7));
+
+string[] name2 = {"bobby", "Johnny", "third person"};
+
+Console.WriteLine(name2[2]);
+
 
 
 Console.WriteLine("This is to test if syncing works with Onedrive.");
