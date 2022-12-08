@@ -1,0 +1,15 @@
+C:\Users\Hali\OneDrive\Documents\Focus\bin\Debug\net7.0\Focus.exe
+C:\Users\Hali\OneDrive\Documents\Focus\bin\Debug\net7.0\Focus.deps.json
+C:\Users\Hali\OneDrive\Documents\Focus\bin\Debug\net7.0\Focus.runtimeconfig.json
+C:\Users\Hali\OneDrive\Documents\Focus\bin\Debug\net7.0\Focus.dll
+C:\Users\Hali\OneDrive\Documents\Focus\bin\Debug\net7.0\Focus.pdb
+C:\Users\Hali\OneDrive\Documents\Focus\obj\Debug\net7.0\Focus.csproj.AssemblyReference.cache
+C:\Users\Hali\OneDrive\Documents\Focus\obj\Debug\net7.0\Focus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hali\OneDrive\Documents\Focus\obj\Debug\net7.0\Focus.AssemblyInfoInputs.cache
+C:\Users\Hali\OneDrive\Documents\Focus\obj\Debug\net7.0\Focus.AssemblyInfo.cs
+C:\Users\Hali\OneDrive\Documents\Focus\obj\Debug\net7.0\Focus.csproj.CoreCompileInputs.cache
+C:\Users\Hali\OneDrive\Documents\Focus\obj\Debug\net7.0\Focus.dll
+C:\Users\Hali\OneDrive\Documents\Focus\obj\Debug\net7.0\refint\Focus.dll
+C:\Users\Hali\OneDrive\Documents\Focus\obj\Debug\net7.0\Focus.pdb
+C:\Users\Hali\OneDrive\Documents\Focus\obj\Debug\net7.0\Focus.genruntimeconfig.cache
+C:\Users\Hali\OneDrive\Documents\Focus\obj\Debug\net7.0\ref\Focus.dll
