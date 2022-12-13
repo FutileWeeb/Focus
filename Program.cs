@@ -12,7 +12,7 @@ switch (Console.ReadLine()){
         Console.WriteLine("Apple");
         break;
     }
-    default:{d
+    default:{
         Console.WriteLine("This is default");
         break;
     }
