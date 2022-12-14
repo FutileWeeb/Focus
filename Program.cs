@@ -1,4 +1,40 @@
 ﻿using System.Collections.Generic;
+//doing that again
+
+Console.WriteLine("Type in a sentence:");
+
+string sentence2 = Console.ReadLine();
+
+static int wordcounter(string sentence2){
+    int wordcount = sentence2.Split(' ').Length;
+    return wordcount;
+}
+
+int aow = wordcounter(sentence2);
+
+Console.WriteLine(aow);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Console.WriteLine("Type a sentence:");
 
