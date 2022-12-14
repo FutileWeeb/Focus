@@ -1,12 +1,41 @@
 ﻿using System.Collections.Generic;
-//EVEN MORE INDEPTH TESTING OF METHODS
 
-static void aCalculator(int numba1, int numba2){
-    int result = numba1 * numba2;
-    Console.WriteLine(result);
+Console.WriteLine("Type a sentence:");
+
+string sentence = Console.ReadLine();
+
+static int namegoeshere(string sentence)
+{
+   
+    int words = sentence.Split(' ').Length;
+    return words;
 }
+int words = namegoeshere(sentence);
+Console.WriteLine(words);
 
-aCalculator(11, 31);
+
+
+
+
+
+//EVEN MORE INDEPTH TESTING OF METHODS
+Console.WriteLine("Insert your first number:");
+int numm1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Insert Your second number:");
+int numm2 = Convert.ToInt32(Console.ReadLine());
+
+static int aCalculator(int nummm1, int nummm2){
+    int result = nummm1 * nummm2;
+   return result;
+}
+int ressssss = aCalculator(numm1, numm2);
+Console.WriteLine(ressssss);
+if (ressssss % 2 == 0){
+    Console.WriteLine("The result is even");
+}
+else {
+    Console.WriteLine("Result is uneven");
+}
 
 //more indepth testing of methods
 
