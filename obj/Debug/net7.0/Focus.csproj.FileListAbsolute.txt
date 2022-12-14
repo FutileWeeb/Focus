@@ -21,3 +21,10 @@ C:\Users\haliz\OneDrive\Documents\Focus\obj\Debug\net7.0\Focus.csproj.CoreCompil
 C:\Users\haliz\OneDrive\Documents\Focus\obj\Debug\net7.0\Focus.dll
 C:\Users\haliz\OneDrive\Documents\Focus\obj\Debug\net7.0\refint\Focus.dll
 C:\Users\haliz\OneDrive\Documents\Focus\obj\Debug\net7.0\Focus.pdb
+C:\Users\haliz\OneDrive\Documents\Focus\bin\Debug\net7.0\Focus.exe
+C:\Users\haliz\OneDrive\Documents\Focus\bin\Debug\net7.0\Focus.deps.json
+C:\Users\haliz\OneDrive\Documents\Focus\bin\Debug\net7.0\Focus.runtimeconfig.json
+C:\Users\haliz\OneDrive\Documents\Focus\bin\Debug\net7.0\Focus.dll
+C:\Users\haliz\OneDrive\Documents\Focus\bin\Debug\net7.0\Focus.pdb
+C:\Users\haliz\OneDrive\Documents\Focus\obj\Debug\net7.0\Focus.genruntimeconfig.cache
+C:\Users\haliz\OneDrive\Documents\Focus\obj\Debug\net7.0\ref\Focus.dll

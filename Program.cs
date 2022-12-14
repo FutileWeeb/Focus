@@ -1,8 +1,24 @@
 ﻿using System.Collections.Generic;
+static void test()
+{
+    Random number3 = new Random();
+    Console.WriteLine($"Your date is {number3.Next(0,100)} years old.");
+}
+
+
+test();
+
+
+
+
+
+
 
 Console.WriteLine("Type in a number:");
 
+
 int number = Convert.ToInt32(Console.ReadLine());
+sqrt(number);
 
 
 static void sqrt (int number) 
@@ -10,6 +26,9 @@ static void sqrt (int number)
     int result = number * number;
     Console.WriteLine(result);
 }
+
+
+
 
 Console.WriteLine("Insert:");
 
