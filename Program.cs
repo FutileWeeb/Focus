@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+<<<<<<< HEAD
 
 Console.WriteLine("Type in a number:");
 
@@ -9,6 +10,35 @@ static void sqrt (number parameter)
 {
     Console.WriteLine(number * number = result)
 }
+=======
+Console.WriteLine("Insert:");
+
+switch (Console.ReadLine()){
+    case "a":
+    {
+        Console.WriteLine("Bobby");
+        break;
+    }
+    case "b":
+    {
+        Console.WriteLine("Apple");
+        break;
+    }
+    default:{
+        Console.WriteLine("This is default");
+        break;
+    }
+    
+}
+Random namehere = new Random();
+
+Console.WriteLine(namehere.Next(1,7));
+
+string[] name2 = {"bobby", "Johnny", "third person"};
+
+Console.WriteLine(name2[2]);
+
+>>>>>>> 0665aaf6bec37e2b13f9cc67f58f8937a8ecb032
 
 
 Console.WriteLine("This is to test if syncing works with Onedrive.");
