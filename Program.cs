@@ -1,4 +1,27 @@
 ﻿using System.Collections.Generic;
+//EVEN MORE INDEPTH TESTING OF METHODS
+
+static void aCalculator(int numba1, int numba2){
+    int result = numba1 * numba2;
+    Console.WriteLine(result);
+}
+
+aCalculator(11, 31);
+
+//more indepth testing of methods
+
+Console.WriteLine("Type in a number:");
+
+
+int number = Convert.ToInt32(Console.ReadLine());
+sqrt(number);
+
+
+static int sqrt (int number) 
+{
+    int result = number * number;
+    return result;
+}
 //for loop testing (also array) just type in "for" down arrow, then hit tab (autofill)
 string[] yeah = {"yeah", "yur", "yup", "yurt", "yuh", "ye", "yea", "yep"};
 for (int i = 0; i <= 7; i++){
@@ -69,23 +92,6 @@ static void test()
 
 
 test();
-
-
-//more indepth testing
-
-Console.WriteLine("Type in a number:");
-
-
-int number = Convert.ToInt32(Console.ReadLine());
-sqrt(number);
-
-
-static void sqrt (int number) 
-{
-    int result = number * number;
-    Console.WriteLine(result);
-}
-
 
 
 //switch statement testing
