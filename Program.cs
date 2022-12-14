@@ -1,4 +1,42 @@
 ﻿using System.Collections.Generic;
+//even more testing yep
+string[] bob = {"mhm", "but of course", "grouse", "fucking dumbass", "aw yep"};
+for (int i = 0; i <= 5; i++)
+{
+    Console.WriteLine(bob[i]);
+}
+//more TESTING KILL ME NOW
+Console.WriteLine("i don't even know");
+
+switch(Console.ReadLine())
+{
+    case "a": {
+        Console.WriteLine("This is a");
+        break;
+    }
+    case "b": {
+        Console.WriteLine("This is b");
+        break;
+    }
+    case "c": {
+        Console.WriteLine("This is c");
+        break;
+    }
+    case "d": {
+        Console.WriteLine("This is d");
+        break;
+    }
+    case "e": {
+        Console.WriteLine("This is e");
+        break;
+    }
+    default: {
+        Console.WriteLine("This is default");
+        break;
+    }
+}
+
+
 //doing that again
 
 Console.WriteLine("Type in a sentence:");
