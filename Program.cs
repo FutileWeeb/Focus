@@ -1,4 +1,16 @@
 ﻿using System.Collections.Generic;
+
+Console.WriteLine("Type in a number:");
+
+int number = Convert.ToInt32(Console.ReadLine());
+
+
+static void sqrt (number parameter) 
+{
+    Console.WriteLine(number * number = result)
+}
+
+
 Console.WriteLine("This is to test if syncing works with Onedrive.");
 Console.WriteLine("CALCULATOR (because i'm bored and need some practice and learn) \n---------------------------------------------------------------");
 Console.WriteLine("Testing to see if it works. AGAIN");
