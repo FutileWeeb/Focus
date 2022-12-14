@@ -1,4 +1,53 @@
 ﻿using System.Collections.Generic;
+//for loop testing (also array) just type in "for" down arrow, then hit tab (autofill)
+string[] yeah = {"yeah", "yur", "yup", "yurt", "yuh", "ye", "yea", "yep"};
+for (int i = 0; i <= 7; i++){
+   Console.WriteLine(yeah[i]);
+}
+//more for loop testing
+for (double i = 1; i <= 50; i++)
+{
+    double numba = Math.Pow(2, i);
+    Console.WriteLine(numba);
+}
+
+
+//switch statement testing AGAIN
+
+Console.WriteLine("Write a random letter:");
+
+switch(Console.ReadLine()){
+    case "a":{
+        Console.WriteLine("A");
+        break;
+    }
+     case "b":{
+        Console.WriteLine("B");
+        break;
+    }
+     case "c":{
+        Console.WriteLine("C");
+        break;
+    }
+     case "d":{
+        Console.WriteLine("D");
+        break;
+    }
+    default: 
+    Console.WriteLine("This is default.");
+    break; 
+}
+
+
+
+//array testing
+await Task.Delay (3000);
+
+string[] bobby = {"name", "Another name", "yet another name", "and yeah what did you expect?"};
+
+
+
+//testing to make sure we know about how to use methods 
 static void test()
 {
     Random number3 = new Random();
@@ -9,10 +58,7 @@ static void test()
 test();
 
 
-
-
-
-
+//more indepth testing
 
 Console.WriteLine("Type in a number:");
 
@@ -29,7 +75,7 @@ static void sqrt (int number)
 
 
 
-
+//switch statement testing
 Console.WriteLine("Insert:");
 
 switch (Console.ReadLine()){
@@ -49,6 +95,8 @@ switch (Console.ReadLine()){
     }
     
 }
+
+//writing randoms testing
 Random namehere = new Random();
 
 Console.WriteLine(namehere.Next(1,7));
@@ -59,7 +107,7 @@ Console.WriteLine(name2[2]);
 
 
 
-
+//calculator testing
 Console.WriteLine("This is to test if syncing works with Onedrive.");
 Console.WriteLine("CALCULATOR (because i'm bored and need some practice and learn) \n---------------------------------------------------------------");
 Console.WriteLine("Testing to see if it works. AGAIN");
