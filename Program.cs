@@ -10,6 +10,19 @@ for (double i = 1; i <= 50; i++)
     double numba = Math.Pow(2, i);
     Console.WriteLine(numba);
 }
+//EVEN MORE LOOP TESTING
+for (int number1 = 0, number2 = 1, counting = 0; number1 != number2; counting++)
+{
+    Console.WriteLine("Enter to roll the dice:");
+    Console.ReadKey();
+    Random random1 = new Random();
+    Random random2 = new Random();
+
+    number1 = random1.Next(1,7);
+    number2 = random2.Next(1,7);
+    Console.WriteLine($"You rolled a {number1} and a {number2}");
+    
+}
 
 
 //switch statement testing AGAIN
@@ -41,7 +54,7 @@ switch(Console.ReadLine()){
 
 
 //array testing
-await Task.Delay (3000);
+await Task.Delay (100);
 
 string[] bobby = {"name", "Another name", "yet another name", "and yeah what did you expect?"};
 
