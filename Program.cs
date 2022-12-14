@@ -1,16 +1,16 @@
 ﻿using System.Collections.Generic;
-<<<<<<< HEAD
 
 Console.WriteLine("Type in a number:");
 
 int number = Convert.ToInt32(Console.ReadLine());
 
 
-static void sqrt (number parameter) 
+static void sqrt (int number) 
 {
-    Console.WriteLine(number * number = result)
+    int result = number * number;
+    Console.WriteLine(result);
 }
-=======
+
 Console.WriteLine("Insert:");
 
 switch (Console.ReadLine()){
@@ -38,7 +38,7 @@ string[] name2 = {"bobby", "Johnny", "third person"};
 
 Console.WriteLine(name2[2]);
 
->>>>>>> 0665aaf6bec37e2b13f9cc67f58f8937a8ecb032
+
 
 
 Console.WriteLine("This is to test if syncing works with Onedrive.");
