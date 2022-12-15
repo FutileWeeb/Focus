@@ -9,7 +9,7 @@ static void methodName()
     Random name2 = new Random();
     int random = name2.Next(0,5);
     Console.WriteLine(exercises[random]);
-    Console.WriteLine("Commit Edit Message.")
+    Console.WriteLine("Commit Edit Message.");
 }
 
 
