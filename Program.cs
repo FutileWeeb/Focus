@@ -2,6 +2,22 @@
 ﻿using System.Collections.Generic; 
 
 
+static void idktbh(){
+    Random mhm = new Random();
+    Console.WriteLine(mhm.Next(0,7));
+}
+Console.WriteLine("Enter a sentence!");
+string aSentence = Console.ReadLine();
+static int aInt(string aSentence){
+    int wordcount = aSentence.Split(" ").Length;
+    return wordcount;
+}
+
+int wordcount = aInt(aSentence);
+Console.WriteLine(wordcount);
+
+
+
 static void methodName()
 {
     string[] exercises = {"Push-up", "Chin-up", "Sit-up", "Curl-up", "Full Splits"};
@@ -17,7 +33,7 @@ methodName();
 
 //even more testing yep
 string[] bob = {"mhm", "but of course", "grouse", "fucking dumbass", "aw yep"};
-for (int i = 0; i <= 5; i++)
+for (int i = 0; i <= 4; i++)
 {
     Console.WriteLine(bob[i]);
 }
@@ -71,26 +87,11 @@ Console.WriteLine(aow);
 
 
 
-
-<<<<<<< HEAD
 Random namegoeshere = new Random();
 
 
 
 Console.WriteLine(namegoeshere.Next(0,7));
-=======
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -102,17 +103,18 @@ Console.WriteLine("Type a sentence:");
 
 string sentence = Console.ReadLine();
 
-static int namegoeshere(string sentence)
+static int namegoesheree(string sentence)
 {
    
     int words = sentence.Split(' ').Length;
     return words;
 }
-int words = namegoeshere(sentence);
+int words = namegoesheree(sentence);
 Console.WriteLine(words);
 
 
-
+Console.WriteLine("This is just wrong.");
+Console.WriteLine("Is this even allowed?");
 
 
 
@@ -222,7 +224,7 @@ test();
 
 
 //switch statement testing
->>>>>>> 9c9fd7fef0e78f406fecf0bf3b65f41d2bb12c41
+
 Console.WriteLine("Insert:");
 
 switch (Console.ReadLine()){
