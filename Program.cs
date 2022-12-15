@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 //even more testing yep
 string[] bob = {"mhm", "but of course", "grouse", "fucking dumbass", "aw yep"};
-for (int i = 0; i <= 5; i++)
+for (int i = 0; i <= 4; i++)
 {
     Console.WriteLine(bob[i]);
 }
