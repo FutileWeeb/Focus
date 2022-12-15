@@ -1,4 +1,26 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections.Generic; 
+
+
+static void methodName()
+{
+    string[] exercises = {"Push-up", "Chin-up", "Sit-up", "Curl-up", "Full Splits"};
+
+    Random name2 = new Random();
+    int random = name2.Next(0,5);
+    Console.WriteLine(exercises[random]);
+}
+
+
+methodName();
+
+
+
+
+Random namegoeshere = new Random();
+
+
+
+Console.WriteLine(namegoeshere.Next(0,7));
 Console.WriteLine("Insert:");
 
 switch (Console.ReadLine()){
@@ -10,6 +32,11 @@ switch (Console.ReadLine()){
     case "b":
     {
         Console.WriteLine("Apple");
+        break;
+    }
+    case "john":
+    {
+        Console.WriteLine("John");
         break;
     }
     default:{
