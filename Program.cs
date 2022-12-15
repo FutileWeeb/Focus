@@ -1,3 +1,4 @@
+﻿
 ﻿using System.Collections.Generic; 
 
 
@@ -14,14 +15,214 @@ static void methodName()
 
 methodName();
 
+//even more testing yep
+string[] bob = {"mhm", "but of course", "grouse", "fucking dumbass", "aw yep"};
+for (int i = 0; i <= 5; i++)
+{
+    Console.WriteLine(bob[i]);
+}
+//more TESTING KILL ME NOW
+Console.WriteLine("i don't even know");
+
+switch(Console.ReadLine())
+{
+    case "a": {
+        Console.WriteLine("This is a");
+        break;
+    }
+    case "b": {
+        Console.WriteLine("This is b");
+        break;
+    }
+    case "c": {
+        Console.WriteLine("This is c");
+        break;
+    }
+    case "d": {
+        Console.WriteLine("This is d");
+        break;
+    }
+    case "e": {
+        Console.WriteLine("This is e");
+        break;
+    }
+    default: {
+        Console.WriteLine("This is default");
+        break;
+    }
+}
+
+
+//doing that again
+
+Console.WriteLine("Type in a sentence:");
+
+string sentence2 = Console.ReadLine();
+
+static int wordcounter(string sentence2){
+    int wordcount = sentence2.Split(' ').Length;
+    return wordcount;
+}
+
+int aow = wordcounter(sentence2);
+
+Console.WriteLine(aow);
 
 
 
+
+
+<<<<<<< HEAD
 Random namegoeshere = new Random();
 
 
 
 Console.WriteLine(namegoeshere.Next(0,7));
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Console.WriteLine("Type a sentence:");
+
+string sentence = Console.ReadLine();
+
+static int namegoeshere(string sentence)
+{
+   
+    int words = sentence.Split(' ').Length;
+    return words;
+}
+int words = namegoeshere(sentence);
+Console.WriteLine(words);
+
+
+
+
+
+
+//EVEN MORE INDEPTH TESTING OF METHODS
+Console.WriteLine("Insert your first number:");
+int numm1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Insert Your second number:");
+int numm2 = Convert.ToInt32(Console.ReadLine());
+
+static int aCalculator(int nummm1, int nummm2){
+    int result = nummm1 * nummm2;
+   return result;
+}
+int ressssss = aCalculator(numm1, numm2);
+Console.WriteLine(ressssss);
+if (ressssss % 2 == 0){
+    Console.WriteLine("The result is even");
+}
+else {
+    Console.WriteLine("Result is uneven");
+}
+
+//more indepth testing of methods
+
+Console.WriteLine("Type in a number:");
+
+
+int number = Convert.ToInt32(Console.ReadLine());
+sqrt(number);
+
+
+static int sqrt (int number) 
+{
+    int result = number * number;
+    return result;
+}
+//for loop testing (also array) just type in "for" down arrow, then hit tab (autofill)
+string[] yeah = {"yeah", "yur", "yup", "yurt", "yuh", "ye", "yea", "yep"};
+for (int i = 0; i <= 7; i++){
+   Console.WriteLine(yeah[i]);
+}
+//more for loop testing
+for (double i = 1; i <= 50; i++)
+{
+    double numba = Math.Pow(2, i);
+    Console.WriteLine(numba);
+}
+//EVEN MORE LOOP TESTING
+for (int number1 = 0, number2 = 1, counting = 0; number1 != number2; counting++)
+{
+    Console.WriteLine("Enter to roll the dice:");
+    Console.ReadKey();
+    Random random1 = new Random();
+    Random random2 = new Random();
+
+    number1 = random1.Next(1,7);
+    number2 = random2.Next(1,7);
+    Console.WriteLine($"You rolled a {number1} and a {number2}");
+    
+}
+
+
+//switch statement testing AGAIN
+
+Console.WriteLine("Write a random letter:");
+
+switch(Console.ReadLine()){
+    case "a":{
+        Console.WriteLine("A");
+        break;
+    }
+     case "b":{
+        Console.WriteLine("B");
+        break;
+    }
+     case "c":{
+        Console.WriteLine("C");
+        break;
+    }
+     case "d":{
+        Console.WriteLine("D");
+        break;
+    }
+    default: 
+    Console.WriteLine("This is default.");
+    break; 
+}
+
+
+
+//array testing
+await Task.Delay (100);
+
+string[] bobby = {"name", "Another name", "yet another name", "and yeah what did you expect?"};
+
+
+
+//testing to make sure we know about how to use methods 
+static void test()
+{
+    Random number3 = new Random();
+    Console.WriteLine($"Your date is {number3.Next(0,100)} years old.");
+}
+
+
+test();
+
+
+//switch statement testing
+>>>>>>> 9c9fd7fef0e78f406fecf0bf3b65f41d2bb12c41
 Console.WriteLine("Insert:");
 
 switch (Console.ReadLine()){
@@ -46,6 +247,8 @@ switch (Console.ReadLine()){
     }
     
 }
+
+//writing randoms testing
 Random namehere = new Random();
 
 Console.WriteLine(namehere.Next(1,7));
@@ -56,6 +259,7 @@ Console.WriteLine(name2[2]);
 
 
 
+//calculator testing
 Console.WriteLine("This is to test if syncing works with Onedrive.");
 Console.WriteLine("CALCULATOR (because i'm bored and need some practice and learn) \n---------------------------------------------------------------");
 Console.WriteLine("Testing to see if it works. AGAIN");
