@@ -14,7 +14,7 @@ static int aInt(string aSentence){
 }
 
 int wordcount = aInt(aSentence);
-Console.WriteLine(wordcount);
+Console.WriteLine(wordcount );
 
 
 
