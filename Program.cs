@@ -1,4 +1,74 @@
-﻿using System.Collections.Generic;
+﻿
+﻿using System.Collections.Generic; 
+
+
+static void idktbh(){
+    Random mhm = new Random();
+    Console.WriteLine(mhm.Next(0,7));
+}
+Console.WriteLine("Enter a sentence!");
+string aSentence = Console.ReadLine();
+static int aInt(string aSentence){
+    int wordcount = aSentence.Split(" ").Length;
+    return wordcount;
+}
+
+int wordcount = aInt(aSentence);
+Console.WriteLine(wordcount );
+
+
+
+static void methodName()
+{
+    string[] exercises = {"Push-up", "Chin-up", "Sit-up", "Curl-up", "Full Splits"};
+
+    Random name2 = new Random();
+    int random = name2.Next(0,5);
+    Console.WriteLine(exercises[random]);
+    Console.WriteLine("Commit Edit Message.");
+}
+
+
+methodName();
+
+//even more testing yep
+string[] bob = {"mhm", "but of course", "grouse", "fucking dumbass", "aw yep"};
+for (int i = 0; i <= 4; i++)
+{
+    Console.WriteLine(bob[i]);
+}
+//more TESTING KILL ME NOW
+Console.WriteLine("i don't even know");
+
+switch(Console.ReadLine())
+{
+    case "a": {
+        Console.WriteLine("This is a");
+        break;
+    }
+    case "b": {
+        Console.WriteLine("This is b");
+        break;
+    }
+    case "c": {
+        Console.WriteLine("This is c");
+        break;
+    }
+    case "d": {
+        Console.WriteLine("This is d");
+        break;
+    }
+    case "e": {
+        Console.WriteLine("This is e");
+        break;
+    }
+    default: {
+        Console.WriteLine("This is default");
+        break;
+    }
+}
+
+
 //doing that again
 
 Console.WriteLine("Type in a sentence:");
@@ -17,18 +87,11 @@ Console.WriteLine(aow);
 
 
 
+Random namegoeshere = new Random();
 
 
 
-
-
-
-
-
-
-
-
-
+Console.WriteLine(namegoeshere.Next(0,7));
 
 
 
@@ -40,17 +103,18 @@ Console.WriteLine("Type a sentence:");
 
 string sentence = Console.ReadLine();
 
-static int namegoeshere(string sentence)
+static int namegoesheree(string sentence)
 {
    
     int words = sentence.Split(' ').Length;
     return words;
 }
-int words = namegoeshere(sentence);
+int words = namegoesheree(sentence);
 Console.WriteLine(words);
 
 
-
+Console.WriteLine("This is just wrong.");
+Console.WriteLine("Is this even allowed?");
 
 
 
@@ -160,6 +224,7 @@ test();
 
 
 //switch statement testing
+
 Console.WriteLine("Insert:");
 
 switch (Console.ReadLine()){
@@ -171,6 +236,11 @@ switch (Console.ReadLine()){
     case "b":
     {
         Console.WriteLine("Apple");
+        break;
+    }
+    case "john":
+    {
+        Console.WriteLine("John");
         break;
     }
     default:{
