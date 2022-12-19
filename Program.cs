@@ -1,11 +1,16 @@
 ﻿
 ﻿using System.Collections.Generic; 
+class randomName{
+
+}
 
 
-static void idktbh(){
-    Random mhm = new Random();
+static void irdktbh(){
+    Random thisAgain = new Random();
     Console.WriteLine(mhm.Next(0,7));
 }
+irdktbh();
+
 Console.WriteLine("Enter a sentence!");
 string aSentence = Console.ReadLine();
 static int aInt(string aSentence){
