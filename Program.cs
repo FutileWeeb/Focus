@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic; 
 
+Console.WriteLine("I want to cry.");
 
 void irdktbh(){
     Random thisAgain = new Random();
@@ -544,5 +545,5 @@ else {
 Console.ReadKey();
 
 class randomName{
-
+   
 }
