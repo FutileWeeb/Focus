@@ -1,12 +1,9 @@
-﻿
 ﻿using System.Collections.Generic; 
 
 
 void irdktbh(){
     Random thisAgain = new Random();
     Console.WriteLine(thisAgain.Next(0,7));
-}
-irdktbh();
 
 Console.WriteLine("Enter a sentence!");
 string aSentence = Console.ReadLine();
