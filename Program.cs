@@ -542,3 +542,7 @@ else {
 }*/
 
 Console.ReadKey();
+
+class randomName{
+
+}
