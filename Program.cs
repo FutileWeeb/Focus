@@ -1,15 +1,8 @@
-﻿
-﻿using System.Collections.Generic; 
-class randomName{
-
-}
-
-
+﻿﻿using System.Collections.Generic; 
 static void irdktbh(){
     Random thisAgain = new Random();
-    Console.WriteLine(mhm.Next(0,7));
+    Console.WriteLine(thisAgain.Next(0,7));
 }
-irdktbh();
 
 Console.WriteLine("Enter a sentence!");
 string aSentence = Console.ReadLine();
