@@ -1,9 +1,10 @@
-﻿﻿using System.Collections.Generic; 
-static void irdktbh(){
-    Random thisAgain = new Random();
-    Console.WriteLine(thisAgain.Next(0,7));
-}
+﻿using System.Collections.Generic; 
 
+
+static void idktbh(){
+    Random mhm = new Random();
+    Console.WriteLine(mhm.Next(0,7));
+}
 Console.WriteLine("Enter a sentence!");
 string aSentence = Console.ReadLine();
 static int aInt(string aSentence){
