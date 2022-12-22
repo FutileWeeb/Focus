@@ -1,5 +1,15 @@
 ﻿using System.Collections.Generic; 
 
+ Random namegoeshereee = new Random();
+ 
+ for (int i = 0; i < 10; i++)
+ {
+    Console.WriteLine($"{namegoeshereee.Next(0,100)}");
+ }
+
+string[] noswear = {"No swearing", "no swear", "Human"};
+
+Console.WriteLine(noswear[8]);
 
 
 
