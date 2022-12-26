@@ -2,6 +2,9 @@
 
 cat cat01 = new cat();
 
+cat01.catAge = 1;
+cat01.catName = "mew";
+cat01.meow();
  Random namegoeshereee = new Random();
  
 
@@ -570,4 +573,17 @@ class cat{
    public void meow(){
     Console.WriteLine($"{catName} says meow");
    }
+}
+
+class wizard{
+    public string wizardName;
+    public int wizardAge;
+    public int wizardStrength;
+
+    public void spell(){
+        Random spellNum = new Random();
+        int spellNumRes = spellNum.Next(0,7);
+        string[] spells = {"fire", "earth", "water", "electric", "wind", "light", "void"};
+        Console.WriteLine($"{wizardName} did a {spells[spellNumRes]} attack, with strength level {wizardStrength}");
+    }
 }
