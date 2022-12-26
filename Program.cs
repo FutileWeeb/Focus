@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic; 
 
+cat cat01 = new cat();
+
  Random namegoeshereee = new Random();
  
 
@@ -10,7 +12,7 @@
 
 string[] noswear = {"No swearing", "no swear", "Human"};
 
-Console.WriteLine(noswear[8]);
+Console.WriteLine(noswear[2]);
 
 
 
@@ -561,6 +563,11 @@ else {
 
 Console.ReadKey();
 
-class randomName{
-   
+class cat{
+   public string catName;
+   public int catAge;
+
+   public void meow(){
+    Console.WriteLine($"{catName} says meow");
+   }
 }
