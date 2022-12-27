@@ -641,6 +641,7 @@ class wizard{
         int effectiveness = effectivenessDecider.Next(0,100);
         Console.WriteLine($"It was {effectiveness}% effective.");
         spellSlots--;
+        experience++;
         }
     }
 }
