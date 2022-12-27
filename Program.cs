@@ -17,6 +17,9 @@ Console.WriteLine(stronk.spellSlots);
 stronk.spell();
 Console.WriteLine(stronk.spellSlots);
 
+stronk.spell();
+
+
 
 
 
