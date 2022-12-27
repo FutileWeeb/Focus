@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic; 
-
 wizard stronk = new wizard();
 stronk.wizardName = "Stronk";
 stronk.wizardAge = 99;
@@ -7,6 +6,18 @@ stronk.wizardFavSpell = "Water";
 stronk.experience = 99.999999f;
 stronk.spellSlots = 2;
 stronk.wizardStrength = 999;
+
+
+Console.WriteLine(stronk.spellSlots);
+
+stronk.spell();
+
+Console.WriteLine(stronk.spellSlots);
+
+stronk.spell();
+Console.WriteLine(stronk.spellSlots);
+
+
 
 
 
@@ -622,7 +633,10 @@ class wizard{
         Random spellNum = new Random();
         int spellNumRes = spellNum.Next(0,7);
         string[] spells = {"fire", "earth", "water", "electric", "wind", "light", "void"};
-        Console.WriteLine($"{wizardName} did a {spells[spellNumRes]} attack, with strength level {wizardStrength}");
+        Console.WriteLine($"{wizardName} did a {spells[spellNumRes]} attack, with strength level {wizardStrength}.");
+        Random effectivenessDecider = new Random();
+        int effectiveness = effectivenessDecider.Next(0,100);
+        Console.WriteLine($"It was {effectiveness}% effective.");
         spellSlots--;
         }
     }
