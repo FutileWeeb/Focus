@@ -1,5 +1,16 @@
 ﻿using System.Collections.Generic; 
 
+wizard stronk = new wizard();
+stronk.wizardName = "Stronk";
+stronk.wizardAge = 99;
+stronk.wizardFavSpell = "Water";
+stronk.experience = 99.999999f;
+stronk.spellSlots = 2;
+stronk.wizardStrength = 999;
+
+
+
+
 cat cat01 = new cat();
 
 cat01.catAge = 1;
@@ -577,13 +588,42 @@ class cat{
 
 class wizard{
     public string wizardName;
+    public string wizardFavSpell;
+    public int spellSlots;
+    public float experience;
     public int wizardAge;
     public int wizardStrength;
 
     public void spell(){
+        if (spellSlots == 0){
+            Console.WriteLine($"{wizardName} is out of mana to do any spells, doing a spell now may kill him.");
+            Console.WriteLine("Do you want to risk it? Press E to confirm, or B to go back.");
+            switch(Console.ReadLine())
+            {
+                case "e": 
+                {
+                    Random mayDie = new Random();
+                    int maybe = mayDie.Next(0,1);
+                    if (maybe == 1){
+                        Console.WriteLine("Your wizard has died.");
+                        
+                    }
+                    break;
+                }
+                case "b":{
+                    Console.WriteLine("Alright, your wizard will now flee from battle.");
+                    break;
+                }
+                
+            }
+
+        }
+        else{
         Random spellNum = new Random();
         int spellNumRes = spellNum.Next(0,7);
         string[] spells = {"fire", "earth", "water", "electric", "wind", "light", "void"};
         Console.WriteLine($"{wizardName} did a {spells[spellNumRes]} attack, with strength level {wizardStrength}");
+        spellSlots--;
+        }
     }
 }
