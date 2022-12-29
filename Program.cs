@@ -1,4 +1,14 @@
 ﻿using System.Collections.Generic; 
+
+
+
+
+
+
+
+
+
+
 wizard stronk = new wizard();
 stronk.wizardName = "Stronk";
 stronk.wizardAge = 99;
@@ -18,6 +28,8 @@ stronk.spell();
 Console.WriteLine(stronk.spellSlots);
 
 stronk.spell();
+
+Console.WriteLine(stronk.experience);
 
 
 
@@ -645,3 +657,60 @@ class wizard{
         }
     }
 }
+
+
+
+
+
+ class humans{
+    public int height;
+    public int weight;
+    public int gender;
+    public string yearlyIncome;
+    public string hColor;
+    public string eColor;
+    public string occupation;
+    public int race;
+    public string hobbies;
+
+    static int weightDecider(){
+        Random weightDecider = new Random();
+        int weight = weightDecider.Next(0,200);
+        return weight;
+    }
+    static int HeightDecider(){
+        Random HeighRegulator = new Random();
+        int Regulator = HeighRegulator.Next(0,10);
+        if (Regulator == 1){
+            Random HeightDecider2 = new Random();
+            int Height2 = HeightDecider2.Next(200,250);
+            return Height2;
+        }
+        else{
+        Random HeightDecider = new Random();
+        int Height = HeightDecider.Next(0,250);
+        return Height;
+        }
+    }
+    static string GenderDecider(){
+        Random GenderDecider = new Random();
+        int GenderNum = GenderDecider.Next(0,2);
+        if (GenderNum == 1){
+            string Gender = "Male";
+            return Gender;
+        }
+        else{
+            string Gender = "Female";
+            return Gender;
+        }
+       
+    }
+    static string yearlyIncomeDecider(){
+        Random yearlyIncomeDecider = new Random();
+        float yearlyIncomeNum = yearlyIncomeDecider.Next(50000,200000);
+        string yearlyIncome = $"${yearlyIncomeNum}";
+        return yearlyIncome;
+    }
+
+
+ }
