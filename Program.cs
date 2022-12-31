@@ -1,5 +1,19 @@
 ﻿using System.Collections.Generic; 
 
+Random dice = new Random();
+int diceResult = dice.Next(0,6);
+
+Console.WriteLine(diceResult);
+
+
+
+
+
+
+
+
+
+
 
 
 
