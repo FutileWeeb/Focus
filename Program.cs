@@ -1,5 +1,19 @@
 ﻿using System.Collections.Generic; 
 
+Random dice = new Random();
+int  result = dice.Next(0,6);
+
+Console.WriteLine(result);
+
+
+
+
+
+
+
+
+
+
 
 static void idktbh(){
     Random mhm = new Random();
