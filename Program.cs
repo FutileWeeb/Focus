@@ -13,7 +13,7 @@ wizard stronk = new wizard();
 stronk.wizardName = "Stronk";
 stronk.wizardAge = 99;
 stronk.wizardFavSpell = "Water";
-stronk.experience = 99.999999f;
+stronk.experience = 100f;
 stronk.spellSlots = 2;
 stronk.wizardStrength = 999;
 
@@ -620,6 +620,14 @@ class wizard{
     public int wizardAge;
     public int wizardStrength;
 
+    public void meditate(){
+         Console.WriteLine($"{wizardName} meditates and regains 5 spellslots");
+         int sum = 5;
+         spellSlots + sum;x
+        }
+        List<int> listIntName = new List<int>();
+       
+
     public void spell(){
         if (spellSlots == 0){
             Console.WriteLine($"{wizardName} is out of mana to do any spells, doing a spell now may kill him.");
@@ -657,6 +665,7 @@ class wizard{
         }
     }
 }
+
 
 
 
