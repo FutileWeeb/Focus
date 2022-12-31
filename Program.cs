@@ -1,32 +1,11 @@
 ﻿using System.Collections.Generic; 
 
-Random dice = new Random();
-int diceResult = dice.Next(0,6);
-
-Console.WriteLine(diceResult);
 
 
+wizard stronk = new wizard("Stronk","Water");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-wizard stronk = new wizard();
-stronk.wizardName = "Stronk";
 stronk.wizardAge = 99;
-stronk.wizardFavSpell = "Water";
+
 stronk.experience = 100f;
 stronk.spellSlots = 2;
 stronk.wizardStrength = 999;
@@ -45,6 +24,11 @@ stronk.spell();
 
 Console.WriteLine(stronk.experience);
 
+stronk.meditate();
+
+stronk.spell();
+
+stronk.spell();
 
 
 
@@ -634,19 +618,29 @@ class wizard{
     public int wizardAge;
     public int wizardStrength;
     
+    public wizard(string _name, string _wizardFavSpell){
+        wizardName = _name;
+        wizardFavSpell = _wizardFavSpell;
+        spellSlots = 2;
+        experience = 0f;
+        
 
-<<<<<<< HEAD
+
+    }
     
-=======
+
+
     public void meditate(){
          Console.WriteLine($"{wizardName} meditates and regains 5 spellslots");
-         int sum = 5;
-         spellSlots + sum;x
+         for (int i = 0; i <= 5; i++)
+         {
+            spellSlots++;
+         }
+         
         }
         List<int> listIntName = new List<int>();
        
 
->>>>>>> e0b01473b39587fc60cd629ebe4601a94935782d
     public void spell(){
         if (spellSlots == 0){
             Console.WriteLine($"{wizardName} is out of mana to do any spells, doing a spell now may kill him.");
