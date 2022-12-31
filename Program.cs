@@ -2,33 +2,29 @@
 
 
 
-wizard stronk = new wizard("Stronk","Water");
-
-stronk.wizardAge = 99;
-
-stronk.experience = 100f;
-stronk.spellSlots = 2;
-stronk.wizardStrength = 999;
+wizard stronk = new wizard("Stronk","Water", 20, 20);
 
 
-Console.WriteLine(stronk.spellSlots);
+
+
 
 stronk.spell();
 
-Console.WriteLine(stronk.spellSlots);
 
-stronk.spell();
-Console.WriteLine(stronk.spellSlots);
 
 stronk.spell();
 
-Console.WriteLine(stronk.experience);
+stronk.spell();
+
+
 
 stronk.meditate();
 
 stronk.spell();
 
 stronk.spell();
+
+Console.WriteLine(wizard.countWizard);
 
 
 
@@ -613,16 +609,21 @@ class cat{
 class wizard{
     public string wizardName;
     public string wizardFavSpell;
-    public int spellSlots;
-    public float experience;
+    private int spellSlots;
+    private float experience;
     public int wizardAge;
     public int wizardStrength;
+
+    public static int countWizard;
     
-    public wizard(string _name, string _wizardFavSpell){
+    public wizard(string _name, string _wizardFavSpell, int _wizardAge, int _wizardStrength){
         wizardName = _name;
         wizardFavSpell = _wizardFavSpell;
         spellSlots = 2;
         experience = 0f;
+        wizardAge = _wizardAge;
+        wizardStrength = _wizardStrength;
+        
         
 
 
