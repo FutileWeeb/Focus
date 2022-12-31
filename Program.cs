@@ -633,7 +633,9 @@ class wizard{
     public float experience;
     public int wizardAge;
     public int wizardStrength;
+    
 
+    
     public void spell(){
         if (spellSlots == 0){
             Console.WriteLine($"{wizardName} is out of mana to do any spells, doing a spell now may kill him.");
