@@ -15,9 +15,69 @@ Console.WriteLine(result);
 
 
 
-static void idktbh(){
-    Random mhm = new Random();
-    Console.WriteLine(mhm.Next(0,7));
+
+
+
+
+
+
+
+
+wizard stronk = new wizard();
+stronk.wizardName = "Stronk";
+stronk.wizardAge = 99;
+stronk.wizardFavSpell = "Water";
+stronk.experience = 99.999999f;
+stronk.spellSlots = 2;
+stronk.wizardStrength = 999;
+
+
+Console.WriteLine(stronk.spellSlots);
+
+stronk.spell();
+
+Console.WriteLine(stronk.spellSlots);
+
+stronk.spell();
+Console.WriteLine(stronk.spellSlots);
+
+stronk.spell();
+
+Console.WriteLine(stronk.experience);
+
+
+
+
+
+
+
+cat cat01 = new cat();
+
+cat01.catAge = 1;
+cat01.catName = "mew";
+cat01.meow();
+ Random namegoeshereee = new Random();
+ 
+
+ for (int i = 0; i < 10; i++)
+ {
+    Console.WriteLine($"{namegoeshereee.Next(0,100)}");
+ }
+
+string[] noswear = {"No swearing", "no swear", "Human"};
+
+Console.WriteLine(noswear[2]);
+
+
+
+
+
+
+Console.WriteLine("I want to cry.");
+
+void irdktbh(){
+    Random thisAgain = new Random();
+    Console.WriteLine(thisAgain.Next(0,7));
 }
 Console.WriteLine("Enter a sentence!");
 string aSentence = Console.ReadLine();
@@ -556,3 +616,115 @@ else {
 }*/
 
 Console.ReadKey();
+
+class cat{
+   public string catName;
+   public int catAge;
+
+   public void meow(){
+    Console.WriteLine($"{catName} says meow");
+   }
+}
+
+class wizard{
+    public string wizardName;
+    public string wizardFavSpell;
+    public int spellSlots;
+    public float experience;
+    public int wizardAge;
+    public int wizardStrength;
+
+    public void spell(){
+        if (spellSlots == 0){
+            Console.WriteLine($"{wizardName} is out of mana to do any spells, doing a spell now may kill him.");
+            Console.WriteLine("Do you want to risk it? Press E to confirm, or B to go back.");
+            switch(Console.ReadLine())
+            {
+                case "e": 
+                {
+                    Random mayDie = new Random();
+                    int maybe = mayDie.Next(0,1);
+                    if (maybe == 1){
+                        Console.WriteLine("Your wizard has died.");
+                        
+                    }
+                    break;
+                }
+                case "b":{
+                    Console.WriteLine("Alright, your wizard will now flee from battle.");
+                    break;
+                }
+                
+            }
+
+        }
+        else{
+        Random spellNum = new Random();
+        int spellNumRes = spellNum.Next(0,7);
+        string[] spells = {"fire", "earth", "water", "electric", "wind", "light", "void"};
+        Console.WriteLine($"{wizardName} did a {spells[spellNumRes]} attack, with strength level {wizardStrength}.");
+        Random effectivenessDecider = new Random();
+        int effectiveness = effectivenessDecider.Next(0,100);
+        Console.WriteLine($"It was {effectiveness}% effective.");
+        spellSlots--;
+        experience++;
+        }
+    }
+}
+
+
+
+
+
+ class humans{
+    public int height;
+    public int weight;
+    public int gender;
+    public string yearlyIncome;
+    public string hColor;
+    public string eColor;
+    public string occupation;
+    public int race;
+    public string hobbies;
+
+    static int weightDecider(){
+        Random weightDecider = new Random();
+        int weight = weightDecider.Next(0,200);
+        return weight;
+    }
+    static int HeightDecider(){
+        Random HeighRegulator = new Random();
+        int Regulator = HeighRegulator.Next(0,10);
+        if (Regulator == 1){
+            Random HeightDecider2 = new Random();
+            int Height2 = HeightDecider2.Next(200,250);
+            return Height2;
+        }
+        else{
+        Random HeightDecider = new Random();
+        int Height = HeightDecider.Next(0,250);
+        return Height;
+        }
+    }
+    static string GenderDecider(){
+        Random GenderDecider = new Random();
+        int GenderNum = GenderDecider.Next(0,2);
+        if (GenderNum == 1){
+            string Gender = "Male";
+            return Gender;
+        }
+        else{
+            string Gender = "Female";
+            return Gender;
+        }
+       
+    }
+    static string yearlyIncomeDecider(){
+        Random yearlyIncomeDecider = new Random();
+        float yearlyIncomeNum = yearlyIncomeDecider.Next(50000,200000);
+        string yearlyIncome = $"${yearlyIncomeNum}";
+        return yearlyIncome;
+    }
+
+
+ }
