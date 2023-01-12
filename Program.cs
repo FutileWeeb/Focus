@@ -613,7 +613,7 @@ class cat{
 class wizard{
     public string wizardName;
     public string wizardFavSpell;
-    private int spellSlots;
+    public int spellSlots;
     private float experience;
     public int wizardAge;
     public int wizardStrength;
@@ -637,11 +637,9 @@ class wizard{
 
     public void meditate(){
          Console.WriteLine($"{wizardName} meditates and regains 5 spellslots");
-<<<<<<< HEAD
-         for (int i = 0; i < 5; i++)
-=======
+
          for (int i = 0; i <= 5; i++)
->>>>>>> c30dbf952912573d1867054914b4940bcd4f6ac7
+
          {
             spellSlots++;
          }
