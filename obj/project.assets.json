@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Hali\\.nuget\\packages\\": {}
+    "C:\\Users\\haliz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hali\\OneDrive\\Documents\\Focus\\Focus.csproj",
+      "projectUniqueName": "C:\\Users\\haliz\\OneDrive\\Documents\\Focus\\Focus.csproj",
       "projectName": "Focus",
-      "projectPath": "C:\\Users\\Hali\\OneDrive\\Documents\\Focus\\Focus.csproj",
-      "packagesPath": "C:\\Users\\Hali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hali\\OneDrive\\Documents\\Focus\\obj\\",
+      "projectPath": "C:\\Users\\haliz\\OneDrive\\Documents\\Focus\\Focus.csproj",
+      "packagesPath": "C:\\Users\\haliz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\haliz\\OneDrive\\Documents\\Focus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hali\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\haliz\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

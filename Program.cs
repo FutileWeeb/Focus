@@ -45,6 +45,10 @@ stronk.spell();
 
 Console.WriteLine(stronk.experience);
 
+stronk.meditate();
+
+Console.WriteLine(stronk.spellSlots);
+
 
 
 
@@ -636,8 +640,11 @@ class wizard{
 
     public void meditate(){
          Console.WriteLine($"{wizardName} meditates and regains 5 spellslots");
-         int sum = 5;
-         spellSlots + sum;x
+         for (int i = 0; i < 5; i++)
+         {
+            spellSlots++;
+         }
+         
         }
         List<int> listIntName = new List<int>();
        
