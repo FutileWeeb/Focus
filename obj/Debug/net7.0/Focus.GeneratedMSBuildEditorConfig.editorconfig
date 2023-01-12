@@ -8,8 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Focus
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\haliz\OneDrive\Documents\Focus\
-=======
-build_property.ProjectDir = c:\Users\Hali\OneDrive\Documents\Focus\
->>>>>>> c30dbf952912573d1867054914b4940bcd4f6ac7
+build_property.ProjectDir = c:\Users\haliz\OneDrive\Documents\Focus\
